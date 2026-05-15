@@ -1,0 +1,9 @@
+Bài 1: Get all prices follow product_name
+https://www.demoblaze.com/#
+
+locator: 
+//a[contains(text(),'Samsung galaxy s6')]/ancestor::div[@class='card-block']//h5
+
+console:
+$x("//a[contains(text(),'Samsung galaxy s6')]/ancestor::div[@class='card-block']//h5")[0].innerText
+Bài 2: 

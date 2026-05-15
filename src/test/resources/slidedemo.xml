@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Slider Demo" parallel="tests" thread-count="2">
+    <listeners>
+        <listener class-name="listener.TestListener"></listener>
+    </listeners>
+    <test name="Login Success">
+        <parameter name="url" value="https://testing.qaautomationlabs.com/slider.php"/>
+        <parameter name="browser" value="hedge"/>
+        <classes>
+            <class name="step.SliderDemo"/>
+        </classes>
+    </test>
+
+</suite>
