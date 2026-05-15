@@ -110,7 +110,7 @@ public class lesson9 {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 
         WebElement uploadFile = driver.findElement(By.cssSelector("input#fileInput"));
-        uploadFile.sendKeys("D:\\Automation_test\\k5_automation\\target");
+        uploadFile.sendKeys(D:\selenium-java\selenium-java-framework-1\target"");
 
         try {
             Thread.sleep(3000);
