@@ -1,7 +1,6 @@
 # 🧪 Selenium Java Automation Framework
 
 A web automation testing framework built with **Java** and **Selenium WebDriver**, designed following the **Page Object Model (POM)** architecture for better maintainability, scalability, and reusability.
-
 ---
 
 # 🚀 Tech Stack
@@ -15,7 +14,6 @@ A web automation testing framework built with **Java** and **Selenium WebDriver*
 | Reporting | Allure Report |
 | CI/CD | GitHub Actions |
 | Version Control | Git & GitHub |
-
 ---
 
 # 📂 Project Structure
@@ -48,7 +46,6 @@ A web automation testing framework built with **Java** and **Selenium WebDriver*
 - **pageObjects** → Stores Page Object classes  
 - **commons** → Shared utilities and base classes  
 - **utilities** → Helper functions 
-
 ---
 
 # ⚙️ Installation & Local Execution
@@ -79,7 +76,6 @@ The following command will:
 ```bash
 mvn clean verify
 ```
-
 ---
 
 # 📊 Generate Allure Report
@@ -97,7 +93,6 @@ allure serve target/allure-results
 ```
 
 > 💡 Press `Ctrl + C` in Terminal to stop the Allure server after viewing the report.
-
 ---
 
 # 🤖 CI/CD Integration with GitHub Actions
@@ -122,7 +117,6 @@ GitHub Actions will automatically:
 - Build the project
 - Execute automated tests
 - Generate execution logs and reports
-
 ---
 
 # ✅ Automation Features
@@ -135,7 +129,6 @@ GitHub Actions will automatically:
 - Allure Reporting Integration
 - CI/CD Pipeline Execution
 - Maven-based Project Management
-
 ---
 
 # 📌 Future Enhancements
@@ -146,7 +139,6 @@ GitHub Actions will automatically:
 - Jenkins CI Pipeline
 - Data-Driven Testing
 - API Automation Integration
-
 ---
 
 # 👩‍💻 Author
@@ -165,6 +157,4 @@ This repository is created for:
 - Demonstrating Selenium & Java knowledge
 - Learning CI/CD integration workflow
 - Portfolio & technical showcase
-
 ---
-```
