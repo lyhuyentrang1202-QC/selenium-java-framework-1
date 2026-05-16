@@ -1,6 +1,7 @@
 # 🧪 Selenium Java Automation Framework
 
 A web automation testing framework built with **Java** and **Selenium WebDriver**, designed following the **Page Object Model (POM)** architecture for better maintainability, scalability, and reusability.
+
 ---
 
 # 🚀 Tech Stack
