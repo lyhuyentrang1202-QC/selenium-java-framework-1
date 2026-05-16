@@ -13,7 +13,7 @@ public class SliderAction extends BasePage {
     public SliderAction sliderToRight(){
         waitElementToVisible(LocatorType.Xpath, SliderUI.slider);
         Actions action = new Actions(DriverManager.getDriver()) ; //class Actions có sẵn trong thư viện selenium để xử lý hành động phức tạp của người dùng
-        action.dragAndDropBy(findElement(LocatorType.Xpath, SliderUI.slider), 250,0).perform();
+        action.dragAndDropBy(findElement(LocatorType.Xpath, SliderUI.slider), 30,0).perform();
         return this;
     }
 }

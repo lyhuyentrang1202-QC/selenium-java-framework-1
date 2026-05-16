@@ -70,7 +70,7 @@
             <version>3.5.3</version>
             <configuration>
                 <suiteXmlFiles>
-                    <suiteXmlFile>src\test\resources\slidedemo.xml</suiteXmlFile>
+                    <suiteXmlFile>src/test/resources/slidedemo.xml</suiteXmlFile> 
                 </suiteXmlFiles>
                 <testFailureIgnore>false</testFailureIgnore>
 

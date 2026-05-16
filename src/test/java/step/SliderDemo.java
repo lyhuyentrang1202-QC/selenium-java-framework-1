@@ -14,22 +14,16 @@ public class SliderDemo extends BaseTest {
 
     @Test(priority = 0)
     void slider() {
+        
+    
         try {
-            Thread.sleep(10000); // Đợi trang kiểm tra bảo mật (Cloudflare) chuyển hướng
+            // Chờ 10 giây để web load XONG TOÀN BỘ TRƯỚC
+            Thread.sleep(5000); 
         } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        // System.out.println("DEBUG - Page Source: " + commons.DriverManager.getDriver().getPageSource());
-        slider.sliderToRight();
-
-        try {
-
-            Thread.sleep(5000);
-
-        } catch (InterruptedException e) {
-
             throw new RuntimeException(e);
-
         }
+        
+        // Sau khi web load xong, mới bắt đầu đi tìm và thao tác
+        slider.sliderToRight(); 
     }
 }
