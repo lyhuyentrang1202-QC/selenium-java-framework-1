@@ -151,8 +151,9 @@ GitHub Actions will automatically:
 
 # 👩‍💻 Author
 
-👨💻 Maintained by: [Ly Huyen Trang]
-📧 Contact: [lyhuyentrang1202@gmail.com] | 🐙GitHub:[https://github.com/lyhuyentrang1202-QC]
+💻 Maintained by: [Ly Huyen Trang]
+📧 Contact: [lyhuyentrang1202@gmail.com]
+🐙GitHub: [https://github.com/lyhuyentrang1202-QC]
 
 ---
 
